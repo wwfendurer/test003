@@ -14,3 +14,20 @@ git remote add origin git@github.com:wwfendurer/test003.git //关联一个远程
 
 git push -u origin master //关联后,第一次推送master分支的所有内容命令，此后，每次本地提交后，就可以使用命令git push origin master推送最新修改
 
+1.安装NodeJS
+NodeJs的安装方式非常简单。https://nodejs.org/en/ 下载LTS版本的安装包，一路Next就好了。
+安装成功后，在命令行上运行 node -v 和 npm -v
+
+2.安装Angular的包 npm install -g @angular/cli
+安装成功后，在命令行上运行 ng version
+
+3.ng new testapp  //testapp可以自己写你喜欢的名字，就是你的项目名
+
+4.npm start
+
+5.ng add ng-zorro-antd [options]
+
+6.npm install ng-zorro-antd
+
+
+
