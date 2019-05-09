@@ -16,7 +16,6 @@ git push -u origin master //关联后,第一次推送master分支的所有内容
 
 111
 
-
 定期修改IP
 nslookup github.global.ssl.fastly.Net 得到IP
 nslookup github.com 得到IP
