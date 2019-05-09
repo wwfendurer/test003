@@ -14,6 +14,8 @@ git remote add origin git@github.com:wwfendurer/test003.git //关联一个远程
 
 git push -u origin master //关联后,第一次推送master分支的所有内容命令，此后，每次本地提交后，就可以使用命令git push origin master推送最新修改
 
+111
+
 
 定期修改IP
 nslookup github.global.ssl.fastly.Net 得到IP
