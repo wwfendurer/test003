@@ -1,0 +1,16 @@
+20190423
+修改配置文件redis.windows.conf
+修改配置文件redis.windows-service.conf
+1.1:requirepass 123456
+1.2:bind 127.0.0.1
+1.3:maxheap 1024000000
+启动Redis服务器端
+redis-server.exe redis.windows.conf
+启动Redis客户端
+redis-cli.exe -h 127.0.0.1 -p 6379
+输入密码验证
+auth 123456
+设置值
+set myKey abc
+获取值
+get myKey

@@ -1,0 +1,266 @@
+EasyUI for jQuery
+EasyUI for Angular
+EasyUI for Vue
+EasyUI for React
+
+react和vue一样只关注视图层，只是一个UI组件库，这跟angular有本质的区别，如果react想开发大型应用需要配合第三方库，他的跨平台优势和生态优势大于vue。
+
+假如你想快速开发一个简单学习成本低的小应用，可以考虑Vue
+
+假如你想开发一个大型应用，可以考虑angular
+假如你想开发一个跨平台应用，可以考虑react
+
+angular
+第一步：下载安装node.js
+第二步：安装 Angular CLI
+npm install -g @angular/cli
+第三步：创建工作区和初始应用
+ng new my-app
+报错：found 1 high severity vulnerability
+第四步：启动开发服务器
+cd my-app
+ng serve --open
+
+
+使用 window.alert() 弹出警告框。
+使用 document.write() 方法将内容写到 HTML 文档中。
+使用 innerHTML 写入到 HTML 元素。
+使用 console.log() 写入到浏览器的控制台
+var length = 16;                                  // Number 通过数字字面量赋值 
+var points = x * 10;                              // Number 通过表达式字面量赋值
+var lastName = "Johnson";                         // String 通过字符串字面量赋值
+var cars = ["Saab", "Volvo", "BMW"];              // Array  通过数组字面量赋值
+var person = {firstName:"John", lastName:"Doe"};  // Object 通过对象字面量赋值
+JavaScript 对大小写是敏感的。
+未使用值来声明的变量，其值实际上是 undefined。
+值类型(基本类型)：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol。
+引用数据类型：对象(Object)、数组(Array)、函数(Function)。
+数组定义1、var cars=new Array();cars[0]="Saab";cars[1]="Volvo";cars[2]="BMW";
+数组定义2、var cars=new Array("Saab","Volvo","BMW");
+数组定义3、var cars=["Saab","Volvo","BMW"];
+
+对象定义 var person={firstname:"John", lastname:"Doe", id:5566};
+对象使用 name=person.lastname;
+对象使用 name=person["lastname"];
+
+Undefined 这个值表示变量不含有值。
+可以通过将变量的值设置为 null 来清空变量。
+
+JavaScript 变量的生命期从它们被声明的时间开始。
+局部变量会在函数运行以后被删除。
+全局变量会在页面关闭后被删除。
+
+因为局部变量只作用于函数内，所以不同的函数可以使用相同名称的变量。
+局部变量在函数开始执行时创建，函数执行完后局部变量会自动销毁。
+
+变量在函数外定义，即为全局变量。
+全局变量有 全局作用域: 网页中所有脚本和函数均可使用。
+
+如果变量在函数内没有声明（没有使用 var 关键字），该变量为全局变量。
+
+typeof "John"                // 返回 string 
+typeof 3.14                  // 返回 number
+typeof false                 // 返回 boolean
+typeof [1,2,3,4]             // 返回 object
+typeof {name:'John', age:34} // 返回 object
+
+var person = null;           // 值为 null(空), 但类型为对象
+var person = undefined;      // 值为 undefined, 类型为 undefined
+var person;                  // 值为 undefined(空), 类型是undefined
+typeof undefined             // undefined
+typeof null                  // object
+null === undefined           // false
+null == undefined            // true
+
+五种不同的数据类型
+string
+number
+boolean
+object
+function
+三种对象类型
+Object
+Date
+Array
+二种不包含任何值的数据类型
+null
+undefined
+
+typeof "John"                 // 返回 string 
+typeof 3.14                   // 返回 number
+typeof NaN                    // 返回 number
+typeof false                  // 返回 boolean
+typeof [1,2,3,4]              // 返回 object
+typeof {name:'John', age:34}  // 返回 object
+typeof new Date()             // 返回 object
+typeof function () {}         // 返回 function
+typeof myCar                  // 返回 undefined (如果 myCar 没有声明)
+typeof null                   // 返回 object
+
+"John".constructor                 // 返回函数 String()  { [native code] }
+(3.14).constructor                 // 返回函数 Number()  { [native code] }
+false.constructor                  // 返回函数 Boolean() { [native code] }
+[1,2,3,4].constructor              // 返回函数 Array()   { [native code] }
+{name:'John', age:34}.constructor  // 返回函数 Object()  { [native code] }
+new Date().constructor             // 返回函数 Date()    { [native code] }
+function () {}.constructor         // 返回函数 Function(){ [native code] }
+
+你可以使用 constructor 属性来查看对象是否为数组 (包含字符串 "Array"):
+function isArray(myArray) {
+    return myArray.constructor.toString().indexOf("Array") > -1;
+}
+你可以使用 constructor 属性来查看对象是否为日期 (包含字符串 "Date"):
+function isDate(myDate) {
+    return myDate.constructor.toString().indexOf("Date") > -1;
+}
+
+getDate()		从 Date 对象返回一个月中的某一天 (1 ~ 31)。
+getDay()		从 Date 对象返回一周中的某一天 (0 ~ 6)。
+getFullYear()		从 Date 对象以四位数字返回年份。
+getHours()		返回 Date 对象的小时 (0 ~ 23)。
+getMilliseconds()	返回 Date 对象的毫秒(0 ~ 999)。
+getMinutes()		返回 Date 对象的分钟 (0 ~ 59)。
+getMonth()		从 Date 对象返回月份 (0 ~ 11)。
+getSeconds()		返回 Date 对象的秒数 (0 ~ 59)。
+getTime()		返回 1970 年 1 月 1 日至今的毫秒数。
+
+表单自动验证
+Internet Explorer 9 及更早 IE 浏览器不支持表单自动验证。
+<form action="demo_form.php" method="post">
+  <input type="text" name="fname" required="required">
+  <input type="submit" value="提交">
+</form>
+
+服务端数据验证是在数据提交到服务器上后再验证。
+客户端数据验证 side validation是在数据发送到服务器前，在浏览器上完成验证。
+
+在函数表达式存储在变量后，变量也可作为一个函数使用：
+var x = function (a, b) {return a * b};
+var z = x(4, 3);
+
+通过 id 查找 HTML 元素
+getElementById
+通过标签名查找 HTML 元素
+getElementsByTagName
+通过类名找到 HTML 元素
+getElementsByClassName
+
+var x = document.getElementById("myBtn");
+x.addEventListener("mouseover", myFunction);
+x.addEventListener("click", mySecondFunction);
+x.addEventListener("mouseout", myThirdFunction);
+function myFunction() {
+    document.getElementById("demo").innerHTML += "Moused over!<br>"
+}
+function mySecondFunction() {
+    document.getElementById("demo").innerHTML += "Clicked!<br>"
+}
+function myThirdFunction() {
+    document.getElementById("demo").innerHTML += "Moused out!<br>"
+}
+
+var p1 = 5;
+var p2 = 7;
+document.getElementById("myBtn").addEventListener("click", function() {
+    myFunction(p1, p2);
+});
+function myFunction(a, b) {
+    var result = a * b;
+    document.getElementById("demo").innerHTML = result;
+}
+
+事件传递有两种方式：冒泡与捕获。
+事件传递定义了元素事件触发的顺序。 如果你将 <p> 元素插入到 <div> 元素中，用户点击 <p> 元素, 哪个元素的 "click" 事件先被触发呢？
+在 冒泡 中，内部元素的事件会先被触发，然后再触发外部元素，即： <p> 元素的点击事件先触发，然后会触发 <div> 元素的点击事件。
+在 捕获 中，外部元素的事件会先被触发，然后才会触发内部元素的事件，即： <div> 元素的点击事件先触发 ，然后再触发 <p> 元素的点击事件。
+
+<div id="div1">
+<p id="p1">这是一个段落。</p>
+<p id="p2">这是另外一个段落。</p>
+</div> 
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("这是一个新的段落。");
+para.appendChild(node); 
+var element = document.getElementById("div1");
+element.appendChild(para);
+</script>
+
+<div id="div1">
+<p id="p1">这是一个段落。</p>
+<p id="p2">这是另外一个段落。</p>
+</div> 
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("这是一个新的段落。");
+para.appendChild(node); 
+var element = document.getElementById("div1");
+var child = document.getElementById("p1");
+element.insertBefore(para, child);
+</script>
+
+<div id="div1">
+<p id="p1">这是一个段落。</p>
+<p id="p2">这是另外一个段落。</p>
+</div> 
+<script>
+var parent = document.getElementById("div1");
+var child = document.getElementById("p1");
+parent.removeChild(child);
+</script>
+
+<div id="div1">
+<p id="p1">这是一个段落。</p>
+<p id="p2">这是另外一个段落。</p>
+</div> 
+<script>
+var para = document.createElement("p");
+var node = document.createTextNode("这是一个新的段落。");
+para.appendChild(node); 
+var parent = document.getElementById("div1");
+var child = document.getElementById("p1");
+parent.replaceChild(para, child);
+</script>
+
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+给Person对象增加一个属性
+Person.prototype.nationality = "English";
+给Person对象增加一个方法 
+Person.prototype.name = function() {
+  return this.firstName + " " + this.lastName;
+};
+
+
+Window
+Window Screen
+Window Location
+Window History
+Navigator
+
+location.hostname 返回 web 主机的域名
+location.pathname 返回当前页面的路径和文件名
+location.port 返回 web 主机的端口 （80 或 443）
+location.protocol 返回所使用的 web 协议（http:// 或 https://）
+
+history.back() - 与在浏览器点击后退按钮相同
+history.forward() - 与在浏览器中点击向前按钮相同
+
+创建Cookie
+document.cookie="username=John Doe; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/";
+修改 Cookie
+document.cookie="username=John Smith; expires=Thu, 18 Dec 2043 12:00:00 GMT; path=/";
+删除 cookie
+document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+
+JavaScript库
+prototype.js是对原生对象的功能增强，多是扩充原生对象。
+jquery.js是对原生语句的封装，多是构建自己的对象。
+
+
+
+

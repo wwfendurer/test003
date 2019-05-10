@@ -1,0 +1,57 @@
+jQuery 是一个 JavaScript 库。jQuery 极大地简化了 JavaScript 编程。jQuery 很容易学习。
+简单的说 Node.js 就是运行在服务端的 JavaScript。
+TypeScript 是 JavaScript 的一个超集，支持 ECMAScript 6 标准。
+TypeScript 由微软开发的自由和开源的编程语言。
+TypeScript 设计目标是开发大型应用，它可以编译成纯 JavaScript，编译出来的 JavaScript 可以运行在任何浏览器上。
+旧：AngularJS、Backbone、Ember
+新：Angular、React、Vue
+
+20190422 redis
+20190423 FreeMarker
+20190424 bootstrap.css 注释
+20190425 bootstrap.css 注释
+20190426 JavaScript
+20190428 JavaScript
+20190428 JQuery
+20190428 Node.js
+20190429 Node.js
+20190429 TypeScript
+20190429 IDE1:WebStorm
+20190429 IDE2:vscode
+20190430 Angular
+20190505 Angular Material
+20190506 Angular Material
+20190507 Angular Material
+20190508 git github
+20190509 易乐游 云更新 群辉NAS
+20190510 易乐游 云更新 群辉NAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 

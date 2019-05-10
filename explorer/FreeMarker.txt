@@ -1,0 +1,24 @@
+FreeMarker是一款用java语言编写的模版引擎，它虽然不是web应用框架，但它很合适作为web应用框架的一个组件。
+
+特点：
+
+1. 轻量级模版引擎，不需要Servlet环境就可以很轻松的嵌入到应用程序中
+
+2. 能生成各种文本，如html，xml，java，等
+
+3. 入门简单，它是用java编写的，很多语法和java相似
+
+1. 知道了FreeMarker是一块模版引擎，可以生产xml，html，java等文件
+
+2. 知道了FreeMarker文件提供占位符，java文件提供数据，通过FreeMarker模版引擎生产有数据的页面，文中是将数据放在Map中。web应用可以用setter/getter 方法
+
+3. 知道了FreeMarker语法中字符串的显示特殊字符，截取的操作。以及一些内置方法的使用
+
+4. 重点了解FreeMarker的空判断知识点。判断变量是否为空用 "??" ，如果变量为空设置默认值。如果不注意空问题，可能会出现黄色页面的提示哦！
+
+5. FreeMarker的宏概念，命名空间，引入文件，给变量赋值，集合的遍历等。
+
+6. Freemarker 整合SpringMVC。
+
+
+

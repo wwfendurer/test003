@@ -1,0 +1,83 @@
+$(document).ready(function(){
+ 
+   // 开始写 jQuery 代码...
+ 
+});
+
+$(function(){
+ 
+   // 开始写 jQuery 代码...
+ 
+});
+
+这是为了防止文档在完全加载（就绪）之前运行 jQuery 代码，即在 DOM 加载完成后才可以对 DOM 进行操作。
+
+hide()隐藏 HTML 元素
+show()显示 HTML 元素
+toggle()切换 hide() 和 show() 
+
+fadeIn() 用于淡入隐藏元素
+fadeOut() 用于淡出可见元素
+fadeToggle() 切换 fadeIn() 和 fadeOut()
+fadeTo() 渐变为给定的不透明度（值介于 0 与 1 之间）
+
+slideDown() 用于向下滑动元素
+slideUp() 用于向上滑动元素
+slideToggle() 切换 slideDown() 与 slideUp()
+
+animate() 方法用于创建自定义动画
+stop() 方法用于停止动画或效果，在它们完成之前
+
+text() - 设置或返回所选元素的文本内容
+html() - 设置或返回所选元素的内容（包括 HTML 标记）
+val() - 设置或返回表单字段的值
+attr() - 用于设置/改变属性值
+
+append() - 在被选元素的结尾插入内容
+prepend() - 在被选元素的开头插入内容
+after() - 在被选元素之后插入内容
+before() - 在被选元素之前插入内容
+
+remove() - 删除被选元素（及其子元素）
+empty() - 从被选元素中删除子元素
+
+addClass() - 向被选元素添加一个或多个类
+removeClass() - 从被选元素删除一个或多个类
+toggleClass() - 对被选元素进行添加/删除类的切换操作
+css() - 设置或返回样式属性
+
+width() 方法设置或返回元素的宽度（不包括内边距、边框或外边距）。
+height() 方法设置或返回元素的高度（不包括内边距、边框或外边距）。
+innerWidth() 方法返回元素的宽度（包括内边距）。
+innerHeight() 方法返回元素的高度（包括内边距）。
+outerWidth() 方法返回元素的宽度（包括内边距和边框）。
+outerHeight() 方法返回元素的高度（包括内边距和边框）。
+
+parent() 方法返回被选元素的直接父元素。
+parents() 方法返回被选元素的所有祖先元素，它一路向上直到文档的根元素 (<html>)。
+parentsUntil() 方法返回介于两个给定元素之间的所有祖先元素。
+
+children() 方法返回被选元素的所有直接子元素。
+find() 方法返回被选元素的后代元素，一路向下直到最后一个后代。
+
+siblings() 方法返回被选元素的所有同胞元素。
+next() 方法返回被选元素的下一个同胞元素。
+nextAll() 方法返回被选元素的所有跟随的同胞元素。
+nextUntil() 方法返回介于两个给定参数之间的所有跟随的同胞元素。
+prev() 方向相反
+prevAll() 方向相反
+prevUntil() 方向相反
+
+first() 方法返回被选元素的首个元素。
+last() 方法返回被选元素的最后一个元素。
+eq() 方法返回被选元素中带有指定索引号的元素。
+filter() 方法允许您规定一个标准。不匹配这个标准的元素会被从集合中删除，匹配的元素会被返回。
+not() 方法返回不匹配标准的所有元素。
+
+AJAX 是与服务器交换数据的技术，它在不重载全部页面的情况下，实现了对部分网页的更新。
+AJAX = 异步 JavaScript 和 XML（Asynchronous JavaScript and XML）。
+
+jQuery load() 方法是简单但强大的 AJAX 方法。
+load() 方法从服务器加载数据，并把返回的数据放入被选元素中。
+GET - 从指定的资源请求数据
+POST - 向指定的资源提交要处理的数据

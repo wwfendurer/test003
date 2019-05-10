@@ -1,0 +1,207 @@
+angular:Angular Material
+angular:NG-ZORRO
+angular:OnsenUI
+angular:PrimeNG
+angular:Semantic UI
+angular:ng-lightning
+angular:Kendo UI
+
+vue:	Element
+vue:	iView
+vue:	Vue Antd
+vue:	Vue-Blu
+vue:	N3
+vue:	AliTelecom UI
+
+react:	Material-UI
+react:	Ant Design
+react:	Blueprint
+react:	React-Toolbox
+react:	React Desktop
+react:	Semantic-UI-React
+react:	Grommet
+react:	Fabric
+react:	React-md
+
+Angular 
+Angular Material官方组件库
+
+ng-zorro阿里组件库
+ng-alain 阿里脚手架基于ng-zorro
+vscode
+vscode：NG-ZORRO Snippets
+vscode：NG-ALAIN Snippets
+
+
+ng new material-one
+
+cd material-one
+
+npm install --save @angular/material 
+npm install --save @angular/cdk 
+npm install --save @angular/animations
+npm install --save hammerjs
+npm install --save @angular/material-moment-adapter
+npm install --save moment 
+npm install --save angular-moment
+
+ng serve --open
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ng generate component autocomplete-auto-active-first-option-example
+ng generate component autocomplete-display-example
+ng generate component autocomplete-filter-example
+ng generate component autocomplete-optgroup-example
+ng generate component autocomplete-overview-example
+ng generate component autocomplete-simple-example
+
+ng generate component checkbox-configurable-example
+
+ng generate component datepicker-overview-example
+ng generate component datepicker-start-view-example
+ng generate component datepicker-value-example
+ng generate component datepicker-min-max-example
+ng generate component datepicker-filter-example
+ng generate component datepicker-events-example
+ng generate component datepicker-disabled-example
+ng generate component datepicker-touch-example
+ng generate component datepicker-api-example
+ng generate component datepicker-locale-example
+ng generate component datepicker-moment-example
+ng generate component datepicker-formats-example
+
+ng generate component form-field-overview-example
+ng generate component form-field-label-example
+ng generate component form-field-appearance-example
+ng generate component form-field-hint-example
+ng generate component form-field-error-example
+ng generate component form-field-prefix-suffix-example
+ng generate component form-field-theming-example
+ng generate component form-field-custom-control-example
+ng generate component form-field-custom-tel-input-example
+
+ng generate component input-overview-example
+ng generate component input-error-state-matcher-example
+ng generate component input-text-field-autosize-textarea-example
+ng generate component input-clearable-example
+ng generate component input-errors-example
+ng generate component input-form-example
+ng generate component input-hint-example
+ng generate component input-prefix-suffix-example
+
+ng generate component radio-ng-model-example
+
+ng generate component select-overview-example
+ng generate component select-value-binding-example
+ng generate component select-form-example
+ng generate component select-hint-error-example
+ng generate component select-disabled-example
+ng generate component select-reset-example
+ng generate component select-optgroup-example
+ng generate component select-multiple-example
+ng generate component select-custom-trigger-example
+ng generate component select-no-ripple-example
+ng generate component select-panel-class-example
+ng generate component select-error-state-matcher-example
+
+ng generate component slider-configurable-example
+
+ng generate component slide-toggle-configurable-example
+
+ng generate component menu-overview-example
+ng generate component menu-icons-example
+ng generate component menu-nested-example
+
+ng generate component sidenav-overview-example
+ng generate component sidenav-drawer-overview-example
+ng generate component sidenav-position-example
+ng generate component sidenav-open-close-example
+ng generate component sidenav-mode-example
+ng generate component sidenav-disable-close-example
+ng generate component sidenav-autosize-example
+ng generate component sidenav-fixed-example
+ng generate component sidenav-responsive-example
+
+ng generate component toolbar-multirow-example
+
+ng generate component card-fancy-example
+ng generate component divider-overview-example
+ng generate component expansion-overview-example
+ng generate component expansion-steps-example
+ng generate component grid-list-dynamic-example
+ng generate component list-sections-example
+ng generate component stepper-overview-example
+ng generate component tab-group-basic-example
+ng generate component tab-group-custom-label-example
+ng generate component tab-group-dynamic-height-example
+ng generate component tab-group-dynamic-example
+ng generate component tab-group-header-below-example
+ng generate component tab-group-lazy-loaded-example
+ng generate component tab-group-stretched-example
+ng generate component tab-group-theme-example
+ng generate component tab-group-async-example
+ng generate component tab-nav-bar-basic-example
+ng generate component tree-dynamic-example
+ng generate component tree-flat-overview-example
+ng generate component tree-checklist-example
+ng generate component tree-nested-overview-example
+ng generate component tree-loadmore-example
+
+ng generate component button-types-example
+ng generate component button-toggle-exclusive-example
+ng generate component badge-overview-example
+ng generate component chips-overview-example
+ng generate component chips-autocomplete-example
+ng generate component chips-input-example
+ng generate component chips-stacked-example
+ng generate component icon-svg-example
+ng generate component progress-spinner-configurable-example
+ng generate component progress-bar-configurable-example
+ng generate component ripple-overview-example
+
+ng generate component bottom-sheet-overview-example
+ng generate component bottom-sheet-overview-example-sheet
+ng generate component dialog-overview-example
+ng generate component dialog-overview-example-dialog
+ng generate component snack-bar-component-example
+ng generate component snack-bar-component-example-snack
+ng generate component tooltip-overview-example
+ng generate component tooltip-position-example
+ng generate component tooltip-custom-class-example
+ng generate component tooltip-delay-example
+ng generate component tooltip-disabled-example
+ng generate component tooltip-manual-example
+ng generate component tooltip-message-example
+ng generate component tooltip-modified-defaults-example
+ng generate component tooltip-auto-hide-example
+
+ng generate component paginator-configurable-example
+ng generate component sort-overview-example
+ng generate component table-basic-example
+ng generate component table-basic-flex-example
+ng generate component table-dynamic-columns-example
+ng generate component table-expandable-rows-example
+ng generate component table-filtering-example
+ng generate component table-footer-row-example
+ng generate component table-http-example
+ng generate component table-multiple-header-footer-example
+ng generate component table-overview-example
+ng generate component table-pagination-example
+ng generate component table-row-context-example
+ng generate component table-selection-example
+ng generate component table-sorting-example
+ng generate component table-sticky-columns-example
+ng generate component table-sticky-footer-example
+ng generate component table-sticky-header-example
+
+
+
+
+
+
+
+
+
